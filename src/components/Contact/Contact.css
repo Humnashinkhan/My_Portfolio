@@ -1,0 +1,78 @@
+.Contact-details{
+    text-align: center;
+    font-size: 20px;
+}
+.Contact-details h1{
+    color:#ee2e7c; 
+}
+.Contact-details p{
+    margin-top: 10px;
+    color: black;
+}
+.Address-detail{
+    display: inline-block; 
+    width: 20%; 
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+.Address-detail h2 {
+    font-size: 20px;
+    margin-bottom:15px;
+    color: #333;
+ }
+  
+.Address-detail p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+.Address-detail a{
+    color: #555;
+    text-decoration: none;
+}
+.Address-detail a:hover{
+       color: green;
+}
+.btn{
+    margin-top: 50px;
+}
+.btn button{
+    padding: 15px 40px;
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+.btn button:hover{
+    background-color: #fff;
+    color: green;
+    border: 2px solid green;
+}
+.links{
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    color:#ee2e7c;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.bottom{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ddd;
+}
+@media (max-width: 768px) {
+    .Address-detail {
+      width: 100%; /* Make each box take up full width on smaller screens */
+      margin-bottom: 20px;
+    }
+  }

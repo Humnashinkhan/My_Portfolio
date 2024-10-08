@@ -1,0 +1,134 @@
+.home-container{
+    height: 70vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-right: 70px;
+}
+.left-text{
+        max-width: 50%; 
+        padding-right: 20px;
+        margin-bottom: 150px;
+}
+.left-text h2{
+     color: #ee2e7c;
+}
+.left-text h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.left-text span{
+    color: #ee2e7c;
+
+}
+.left-text p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.left-text .button{
+    padding: 15px 40px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ee2e7c;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+
+.left-text .button:hover{
+    border: 2px solid #ee2e7c;
+    background: #fff;
+    color: #ee2e7c;
+
+}
+.right-img{
+    flex: 1; 
+    max-width: 50%; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+.right-img img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .home-container {
+        flex-direction: column;
+        height: 65vh;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .left-text {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 70px;
+        margin-top: 30px;
+
+    }
+
+    .left-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-text p {
+        font-size: 1rem;
+    }
+
+    .right-img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-text h1 {
+        font-size: 2rem;
+    }
+
+    .left-text p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .left-text .button {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+    .right-img img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 468px) {
+    .home-container {
+        padding: 20px;
+    }
+
+    .left-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .left-text p {
+        font-size: 0.9rem;
+    }
+
+    .left-text .button {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+
+    .right-img img {
+        width: 100%;
+    }
+}
+  
+   
