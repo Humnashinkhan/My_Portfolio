@@ -45,10 +45,10 @@ const Projects = () => {
     },
     {
       title: 'My Portfolio Website',
-      description: 'CRUD (Create, Read, Update, Delete) application built using React.js.',
+      description: 'This is a portfolio website built using React.js.It showcases my skills,and experience as a Frontend Developer.',
       technologies: [faHtml5, faCss3Alt, faJs, faReact],
       liveLink: 'https://your-live-link.com',
-      codeLink: '',
+      codeLink: 'https://github.com/Humnashinkhan/My_Portfolio',
       image: '/assets/img3.png',
     },
     {

@@ -17,7 +17,7 @@ section {
 }
 
 #about {
-  background-color: #eee;
+  background-color: #fff;
   height: 80vh;
 
 }
@@ -38,11 +38,11 @@ section {
 }
 @media (max-width: 1024px) {
      #skill {
-       height:  90vh;
+       height:  120vh;
      }
 }
 @media (max-width: 786px) {
   #about{
-    height:  75vh;
+    height:  100vh;
   }
 }

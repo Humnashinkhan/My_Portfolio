@@ -102,11 +102,11 @@
 /* Media query for mobile phones */
 @media (max-width: 768px) {
     .Technical-Skill h2, .professional-Skill h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
    
     .Technical-Skill h2{
-         margin-left: 200px;
+         margin-left: 150px;
     }
     .skill-details {
         flex-direction: column;
@@ -119,7 +119,7 @@
     }
 
     .LOGO span {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .Skill-Bars {
@@ -139,11 +139,11 @@
     }
 
     .LOGO .Skill-icon {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .LOGO span {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .Skill-Bars {

@@ -67,10 +67,15 @@
 }
 
 /* Optional: Add responsiveness for smaller screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 786px) {
     .about-container {
       flex-direction: column;
     }
+    .about p {
+        flex: 1;
+        font-size: 1.1rem;
+        margin-left: -55px;
+      }
     .edu-details{
          margin-top: 5px;
          width: 100%;
