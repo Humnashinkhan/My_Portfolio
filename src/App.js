@@ -9,6 +9,7 @@ import Skill from './components/Skill/Skill';
 function App() {
   return (
     <div className="App">
+      
       <NavBar/>
       <section id="home">
         <Home />

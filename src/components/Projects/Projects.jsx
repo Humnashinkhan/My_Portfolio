@@ -36,14 +36,6 @@ const Projects = () => {
   };
   const projectData = [
     {
-      title: 'To-Do List App',
-      description: 'A to-do list application with add, edit, and delete functionality.',
-      technologies: [faHtml5, faCss3Alt, faJs, faReact],
-      liveLink: 'https://your-live-link.com',
-      codeLink: 'https://github.com/Humnashinkhan/todo-list-react-project',
-      image: '/assets/img2.jpg',
-    },
-    {
       title: 'My Portfolio Website',
       description: 'This is a portfolio website built using React.js.It showcases my skills,and experience as a Frontend Developer.',
       technologies: [faHtml5, faCss3Alt, faJs, faReact],
@@ -52,10 +44,18 @@ const Projects = () => {
       image: '/assets/img3.png',
     },
     {
+      title: 'To-Do List App',
+      description: 'A to-do list application with add, edit, and delete functionality.',
+      technologies: [faHtml5, faCss3Alt, faJs, faReact],
+      liveLink: 'https://todo-list-dun-one.vercel.app/',
+      codeLink: 'https://github.com/Humnashinkhan/TODO_LIST',
+      image: '/assets/img2.jpg',
+    },
+    {
       title: 'Quiz Application',
       description: 'A fully functional Quiz App built with React.js. ',
       technologies: [faHtml5, faCss3Alt, faJs, faReact],
-      liveLink: 'https://your-live-link.com',
+      liveLink: 'https://quiz-app-using-react-gules.vercel.app/',
       codeLink: 'https://github.com/Humnashinkhan/Quiz_App-using-react',
       image: '/assets/img4.webp',
     },
@@ -63,17 +63,17 @@ const Projects = () => {
       title: 'CRUD Application',
       description: 'CRUD (Create, Read, Update, Delete) application built using React.js.',
       technologies: [faHtml5, faCss3Alt, faJs, faReact],
-      liveLink: 'https://your-live-link.com',
+      liveLink: 'https://crud-application-ruby.vercel.app/',
       codeLink: 'https://github.com/Humnashinkhan/CRUD_Application',
-      image: '/assets/img5.webp',
+      image: '/assets/img5.jpeg',
     },
     {
-      title: 'To-Do List App',
-      description: 'A to-do list application with add, edit, and delete functionality.',
+      title: 'Asistensia Website',
+      description: 'It was developed for a company as Frontend developer trainee Task.',
       technologies: [faHtml5, faCss3Alt, faJs, faReact],
       liveLink: 'https://your-live-link.com',
       codeLink: 'https://github.com/yourusername/todo-app',
-      image: '/assets/img2.jpg',
+      image: '/assets/img6.jpg',
     },
   ];
   return (
