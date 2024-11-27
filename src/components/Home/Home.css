@@ -49,13 +49,15 @@
     flex: 1; 
     max-width: 43%; 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+
   }
   
 .right-img img {
     max-width: 100%; 
     height: auto;
     border-radius: 10px;
+    margin-right: 60px;
 }
 
 @media (max-width: 1024px) {

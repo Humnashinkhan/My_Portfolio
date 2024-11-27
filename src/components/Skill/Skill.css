@@ -1,9 +1,20 @@
 .skill-container h1{
      text-align: center;
-     padding-top: 10px;
-     font-size: 22px;
+     padding-top: 30px;
+     font-size: 30px;
      font-family: sans-serif;
 }
+.skill-container p{
+    text-align: center;
+    padding-top: 10px;
+    color: #ee2e7c;
+    font-weight: 600;
+}
+
+
+
+
+
 .skill-details{
     display: flex;
     justify-content: space-between;

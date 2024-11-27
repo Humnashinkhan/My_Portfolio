@@ -1,42 +1,31 @@
 import React from 'react'
-import './About.css'
+import "./About.css"
 const About = () => {
   return (
-    <div className='about-container'>
-      <div className="intro">
-        <h2>About Me</h2>
-        <div className='about'>
-        <p>"I am Humnashin Khan.i did my graduation 
-            in computer science engineering from Amity university, jharkhand.
-            with aggregate cgpa of 8.19.
-            I have keen interest in Frontend development have an excellent command 
-            HTML, CSS,Tailwind CSS to implement design, Javascript and hava an command on
-            React Javascript library. Basic knowledge of NodeJS, Express, Have basic command on SQL
-             and oracle database gained by Working on different projects in Bachelor Degree.
-             " </p>
-        </div>
-  </div>
-      <div className='education'>
-        <h2>Education</h2>
-        <div className='edu-details'>
-         <h1>2019-2023</h1>
-         <h3>Bachelor of Engineering</h3>
-         <h4>Amity University,Jharkhand</h4>
-         <p>Grade: First division</p>
-         </div>
-         <div className='intern'>
-          <h2>Internship</h2>
-          <div className="about-internship">
-            <h1>Company Name: Valutico</h1>
-            <h3>Duration: 6 Months from Feb 2023-Aug 2023</h3>
-            <h4>location: Remote</h4>
-            <p>Technology used:Javascript, ReactJS, Typescript, Css, Html</p>
-            
-          </div>
-        </div>
-      </div>
-     
+    <>
+    <div className="about-container">
+       <h1>About me</h1>
+       <p>Who am I</p>
     </div>
+    <div className="about-img">
+      <div className="left-img">
+        <img
+        alt="img"
+        src="https://asistensia.com/assets/about-img-5653c8506cf39df77a5ff65c60d79290e34bbbb639ba525faff018aaa147d0fa.jpg"
+        />
+      </div>
+      <div className="about-us">
+        <h2>I'm Humnashin and I'm a Frontend Developer</h2>
+        <p>I am a dedicated front-end developer focused on creating attractive 
+          and user-friendly websites. I am passionate about translating design 
+          concepts into interactive digital experiences and continuously 
+          improving my skill set to stay updated with the latest industry trends. 
+          My portfolio showcases a variety of projects that demonstrate my 
+          ability to deliver responsive and dynamic web applications.
+        </p>
+      </div>
+    </div>
+    </>
   )
 }
 

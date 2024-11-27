@@ -1,70 +1,50 @@
 .about-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
-    padding: 20px;
-    gap: 30px;  
 }
-.intro{
-    max-width: 50%;
-}
-.intro h2{
-    font-size: 25px;
-    color: #ee2e7c;
+.about-container h1{
     text-align: center;
-    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 40px;
 }
-.about{
-    margin-top: 10px;
-    display: inline-block; 
-    width: 50% ;
-    padding: 20px;
-    margin-left: 120px;
-
-}
-.about p {
-    flex: 1;
-    font-size: 1.1rem;
+.about-container p{
     text-align: center;
-  }
-.education{
-    max-width: 50%;
-}
-.education h2{
-    font-size: 25px;
-    color: #ee2e7c;
-    text-align: center;
-    margin-top: 10px;
-}
-.edu-details{
-   display: inline-block; 
-    width: 50% ;
-    padding: 20px;
-    background-color: #fff; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px #ddd;
-    margin-top: 10px;
-    margin-left: 160px;
-
-}
-.about-internship{
-    display: inline-block; 
-    width: 50%; 
-    padding: 20px;
-    background-color: #fff; 
-    border-radius: 8px;
-    box-shadow: 0 2px 8px #ddd;
-    margin-top: 20px;
-    margin-left: 160px;
-}
-.about-internship h1{
-    font-size: 20px;
     font-weight: 600;
+    padding-top: 10px;
+    color: #ee2e7c;
 }
-.about-internship h3{
-    font-size: 13px;
+.about-img{
+    display: flex;
+}
+.left-img img{
+    height: 450px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.about-us{
+   margin-left: 80px;
+   width: 50%;
+   margin-top: 110px;
+}
+.about-us h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.about-us p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    margin-right: 90px;
 
 }
+
+
+
+
+
+
+
 
 /* Optional: Add responsiveness for smaller screens */
 @media screen and (max-width: 786px) {
