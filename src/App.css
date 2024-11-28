@@ -28,9 +28,8 @@ section {
 
 #projects{
   background-color: #eee;
-
+  height: 150vh;
 }
-
 #contact {
   padding: 60px 10px;
   background-color: #fff;
@@ -38,11 +37,15 @@ section {
 }
 @media (max-width: 1024px) {
      #skill {
-       height:  120vh;
+       height:  90vh;
      }
 }
 @media (max-width: 786px) {
   #about{
-    height:  100vh;
+    height:  120vh;
+    width: auto;
+  }
+  #projects{
+    height: 260vh;
   }
 }

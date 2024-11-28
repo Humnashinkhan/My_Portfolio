@@ -1,5 +1,4 @@
-.about-container{
-}
+
 .about-container h1{
     text-align: center;
     font-size: 40px;
@@ -39,37 +38,53 @@
 
 }
 
-
-
-
-
-
-
-
-/* Optional: Add responsiveness for smaller screens */
-@media screen and (max-width: 786px) {
-    .about-container {
-      flex-direction: column;
-    }
-    .about p {
-        flex: 1;
-        font-size: 1.1rem;
-        margin-left: -55px;
-      }
-    .edu-details{
-         margin-top: 5px;
-         width: 100%;
-         margin-left: -1px;
-         text-align: center;
-    }
-    .about-internship{
-         margin-top: 5px;
-         width: 100%;
-         margin-left: -1px;
-         text-align: center;
+@media (max-width: 992px) {
+    .left-img img {
+        height: 350px;
     }
 
-    .intro, .education {
-        max-width: 100%;
+    .about-us {
+        width: 70%;
     }
-  }
+}
+
+@media (max-width: 768px) {
+    .about-img {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .about-img img{
+        height: 280px;
+        width: 280px;
+        margin-left: 70px;
+    }
+
+    .about-us {
+        width: 90%;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-container h1 {
+        font-size: 30px;
+    }
+
+    .left-img img {
+        height: auto; /* Allow the image to resize naturally */
+    }
+
+    .about-us h2 {
+        font-size: 18px;
+    }
+
+    .about-us p {
+        letter-spacing: 0.5px;
+    }
+}
+
+
+
+
+
+
+

@@ -1,39 +1,9 @@
 import React from 'react'
-import './Projects.css'
-import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "./Projects.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 const Projects = () => {
-  let settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    centerMode: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1, // 2 slides on smaller screens
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1, // 1 slide on mobile screens
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      }
-    ]
-  };
+
   const projectData = [
     {
       title: 'My Portfolio Website',
@@ -77,13 +47,16 @@ const Projects = () => {
     },
   ];
   return (
-    <div className='Project-Container'>
+    <>
+    <div className='project-container'>
         <h1>My Projects</h1>
-        <div className="projects-grid">
-        <Slider {...settings}>
-        {projectData.map((project, index) => (
-        <div key={index} className="project-card">
-           <img src={project.image} alt={project.title} className="project-image" />
+         <p>Check my Work</p>
+
+    <div className='project-grid'>
+      <div className="cards-container">
+       {projectData.map((project, index) => (
+      <div key={index} className='project-card'>
+      <img src={project.image} alt={project.title} className="project-image" />
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <div className="technologies-used">
@@ -97,12 +70,12 @@ const Projects = () => {
                 <FontAwesomeIcon icon={faGithub} /> View Code
               </a>
             </div>
-        </div>
-        ))}
-     </Slider>
+      </div>
+    ))}
     </div>
     </div>
-
+    </div>
+    </>
   )
 }
 

@@ -1,23 +1,43 @@
-.Project-Container{
+.project-container{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    max-width: 1200px; /* Ensures the container doesn’t overflow */
+    margin: 0 auto;
+}
+.project-container p{
+    padding-top: 10px;
+    color: #ee2e7c;
+    font-weight: 600;
 }
 .projects-grid {
+    display: flex; /* Makes it a flex container */
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 20px; /* Adds spacing between the project cards */
+    padding: 20px;
+    width: 100%; /* Full width for the grid */
+    box-sizing: border-box; 
+}
+.cards-container{
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 20px; /* Adds spacing between the project cards */
     margin: 0 auto;
-    max-width: 1000px;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-
+    padding: 20px;
+    width: 100%; /* Full width for the grid */
+    box-sizing: border-box; 
 }
 .project-card{
+    width: 300px;
     border: 2px solid #ddd;
-    height: 340px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
     margin-top: 30px;
+    height: 400px;
 }
 .project-card:hover {
     transform: translateY(-10px);
@@ -75,81 +95,3 @@
     border: 2px solid #333;
 
 }
-.slick-slide {
-    padding: 0     /* Space between the slides */
-    
-}
-
-
-@media (max-width: 1024px) {
-    .Project-Container {
-        padding: 10px;
-    }
-
-    .project-card h2 {
-        font-size: 1.2rem;
-    }
-
-    .project-card p {
-        font-size: 0.9rem;
-    }
-
-    .btn {
-        padding: 8px 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    .Project-Container {
-        padding: 30;
-        height: fit-content;
-    }
-    .projects-grid{
-        padding: 35px;
-        margin-top: 30px;
-    }
-
-    .project-card h2 {
-        font-size: 1.1rem;
-    }
-
-    .project-card p {
-        font-size: 0.8rem;
-    }
-
-    .btn {
-        padding: 6px 12px;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .project-card h2 {
-        font-size: 1rem;
-    }
-
-    .project-card p {
-        font-size: 0.75rem;
-    }
-
-    .project-card {
-        margin: 10px 0; /* Reduce margin between cards */
-    }
-
-    .btn {
-        padding: 5px 10px;
-        font-size: 0.8rem;
-    }
-
-    .project-image {
-        height: 140px;
-    }
-
-    .tech-icon {
-        font-size: 18px;
-    }
-}
-
-
-
-
