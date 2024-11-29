@@ -25,6 +25,9 @@
    width: 50%;
    margin-top: 110px;
 }
+.about-us span{
+    color:#ee2e7c;
+}
 .about-us h2{
     font-size: 25px;
     font-weight: 700;
@@ -81,10 +84,4 @@
         letter-spacing: 0.5px;
     }
 }
-
-
-
-
-
-
 

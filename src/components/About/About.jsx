@@ -1,6 +1,18 @@
-import React from 'react'
-import "./About.css"
+import React, { useEffect, useState } from 'react'
+import "./About.css";
 const About = () => {
+
+  const titles = ["Frontend Developer", "React Developer"];
+    const [currentTitle, setCurrentTitle] = useState(0);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentTitle((prevTitle) => (prevTitle + 1) % titles.length); // Cycle through titles
+      }, 2000); // Change every 2 seconds
+  
+      return () => clearInterval(interval); // Clean up interval on component unmount
+    }, [titles]);
+
   return (
     <>
     <div className="about-container">
@@ -15,7 +27,7 @@ const About = () => {
         />
       </div>
       <div className="about-us">
-        <h2>I'm Humnashin and I'm a Frontend Developer</h2>
+        <h2>I'm Humnashin and I'm a <span>{titles[currentTitle]}</span></h2>
         <p>I am a dedicated front-end developer focused on creating attractive 
           and user-friendly websites. I am passionate about translating design 
           concepts into interactive digital experiences and continuously 
