@@ -27,28 +27,48 @@ const Skill = () => {
       </div>
       <div className="tech-logo-container">
            <div className="logo">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
            <FontAwesomeIcon icon={faJs} className='Skill-icon' color='#F7DF1E' width="90px"/>
-           <FontAwesomeIcon icon={faReact} className='Skill-icon' color='#61DAFB' width='90px'/> 
+           </a>
+           <a href="https://react.dev/">
+           <FontAwesomeIcon icon={faReact} className='Skill-icon' color='#61DAFB' width='90px'/>
+           </a> 
+           <a href="https://nodejs.org/en">
            <FontAwesomeIcon icon={faNode} className='Skill-icon' color='#339933' width='90px'/> 
-           <FontAwesomeIcon icon={faHtml5} className='Skill-icon' color= '#E34F26' width='90px'/> 
-           <FontAwesomeIcon icon={faCss3Alt} className='Skill-icon' color= '#1572B6' width='90px'/> 
+           </a>
+           <a href="https://www.w3.org/html/">
+           <FontAwesomeIcon icon={faHtml5} className='Skill-icon' color= '#E34F26' width='90px'/>
+           </a>
+           <a href="https://www.w3schools.com/css/">
+           <FontAwesomeIcon icon={faCss3Alt} className='Skill-icon' color= '#1572B6' width='90px'/>
+           </a>
+           <a href="https://git-scm.com/">
            <FontAwesomeIcon icon={faGit} className='Skill-icon' color='#F05032' width='90px'/> 
+           </a>
+           <a href="https://tailwindcss.com/">
            <img
            alt="tailwind"
            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png"
            />
+           </a>
+           <a href="https://redux.js.org/">
            <img 
             alt="redux"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png"
             />
-           <img 
-           alt="typescript"
-           src="https://icon.icepanel.io/Technology/svg/TypeScript.svg"
+            </a>
+            <a href="https://www.typescriptlang.org/">
+            <img 
+            alt="typescript"
+            src="https://icon.icepanel.io/Technology/svg/TypeScript.svg"
            />
+           </a>
+           <a href="https://dev.mysql.com/doc/">
            <img
             alt="sql"
             src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
             />
+            </a>
            </div>
       </div>
 
