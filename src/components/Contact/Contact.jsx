@@ -22,7 +22,7 @@ const Contact = () => {
       </div>
       <div className='Address-detail'>
            <h2>Download Updated Resume</h2>
-           <a href="" download="Humnashin_Khan_Resume.pdf"> Download Resume</a>
+           <a href=""> Download Resume</a>
       </div>
         <div className='btn'>
         <button>Click here</button>
