@@ -58,6 +58,7 @@
     }
     .skill-paragraph p{
         margin-left: 50px;
+        padding-right: 5px;
     }
     .skill-details {
         display: flex;

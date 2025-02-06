@@ -68,6 +68,9 @@
 }
 
 @media (max-width: 576px) {
+    .about-container{
+        width: screen;
+    }
     .about-container h1 {
         font-size: 30px;
     }

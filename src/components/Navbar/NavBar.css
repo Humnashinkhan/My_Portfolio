@@ -75,7 +75,7 @@
   /* Mobile styles */
   @media screen and (max-width: 768px) {
     .Nav-Container {
-        width: auto;
+        width: screen;
     }
     .title {
         margin-left: 0;

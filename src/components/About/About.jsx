@@ -23,7 +23,7 @@ const About = () => {
       <div className="left-img">
         <img
         alt="img"
-        src="https://asistensia.com/assets/about-img-5653c8506cf39df77a5ff65c60d79290e34bbbb639ba525faff018aaa147d0fa.jpg"
+        src="https://img.freepik.com/premium-vector/work-home-illustration-design-freelance-woman-sitting-chair-working-laptop_100562-415.jpg?w=740"
         />
       </div>
       <div className="about-us">
